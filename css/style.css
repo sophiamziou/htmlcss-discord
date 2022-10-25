@@ -170,6 +170,9 @@ h2{
 .last-col{
     width: 100%;
 }
+.padding-bottom{
+    padding-bottom: 20px;
+}
 
 h3{
     background-image: url("../img/stars.svg");
