@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    height: 60px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-header{
+    width: 70%;
+    height: 40px;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 40px;
+}
+
+.col-link{
+    text-align: center;
+    width: 50%;
+    border: 1px black dashed;
+}
+
+.col-log{
+    padding: 0 5px;
+    width: 25%;
+    border: 1px black dashed;
+}
+
+/*FIRST MAIN CONTAINER*/
+.blue-container{
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid lightblue;
+}
+
+.pink-container{
+    border: 1px black dashed;
+    background-color: pink;
+    width: 50%;
+    height: 400px;
+}
+
+/* BLUE AND PINK MAIN CONTAINERS */
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: row;
+
+}
+
+.blue-col{
+    width: 70%;
+    height: 499px;
+    background-color: lightblue;
+    border: 1px black dashed;
+}
+
+.pink-col{
+    width: 30%;
+    height: 499px;
+    background-color: pink;
+    border: 1px black dashed;
+}
+
+.grey-bg{
+    background-color: grey;
+}
+
+.white-bg{
+    background-color: white;
+}
+
+/* LAST MAIN CONTAINER */
+
+.last-container{
+    width: 100%;
+    height: 1000px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-row{
+    width: 70%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: row;
+}
+
+.last-col{
+    width: 100%;
+    height: 899px;
+    background-color: green;
+    border: 1px black dashed;
+}
+
+/* INFO FOOTER SECTION */
+footer{
+    background-color: black;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
+
+.info-row{
+    width: 70%;
+    display: flex;
+    justify-content: row;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.sm-col{
+    width: 17%;
+    height: 449px;
+    background-color: lightseagreen;
+    border: 1px white dashed;
+}
+.big-col{
+    width: 32%;
+    height: 449px;
+    background-color: salmon;
+    border: 1px black dashed;
+}
+
+/* LOGO FOOTER SECTION */
+.logo-footer{
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.logo-row{
+    width: 70%;
+    height: 70px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-col{
+    background-color: pink;
+    border: 1px black dashed;
+    padding: 5px;
+}
