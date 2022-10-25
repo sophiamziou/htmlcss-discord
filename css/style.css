@@ -129,22 +129,21 @@ button{
 
 }
 
-.blue-col{
+.img-col{
     width: 70%;
-    height: 499px;
-    background-color: lightblue;
-    border: 1px black dashed;
 }
 
-.pink-col{
+.text-col{
     width: 30%;
-    height: 499px;
-    background-color: pink;
-    border: 1px black dashed;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 50px;
 }
 
 .grey-bg{
-    background-color: grey;
+    background-color: rgba(246,246,246,255);
 }
 
 .white-bg{
