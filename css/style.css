@@ -67,21 +67,46 @@ a{
 }
 
 /*FIRST MAIN CONTAINER*/
-.blue-container{
-    background-color: blue;
-    height: 500px;
+.intro{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid lightblue;
 }
 
-.pink-container{
-    border: 1px black dashed;
-    background-color: pink;
+.intro-text{
     width: 50%;
-    height: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+
+h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+button{
+    padding: 15px 20px;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    margin: 20px 10px;
+}
+
+.black-btn{
+    background-color: rgba(35,39,42,255);
+    color: white;
+}
+
+.white-btn{
+    background-color: white;
+    color: black;
 }
 
 /* BLUE AND PINK MAIN CONTAINERS */
