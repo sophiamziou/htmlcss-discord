@@ -227,27 +227,20 @@ footer{
 /* LOGO FOOTER SECTION */
 .logo-footer{
     width: 100%;
-    border-bottom: 1px solid white;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
 }
 
 .logo-row{
     width: 70%;
-    height: 70px;
-    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid rgb(142,161,225);
+    padding: 20px;
 }
 
-.logo-col{
-    background-color: pink;
-    border: 1px black dashed;
-    padding: 5px;
-}
 .social{
     display: inline;
     padding: 5px;
@@ -273,5 +266,13 @@ h5{
     color: rgb(142,161,225);
     text-align: justify;
     padding-top: 20px;
+}
+
+.footer-btn{
+    color: white;
+    background-color: rgb(142,161,225);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
 }
 
