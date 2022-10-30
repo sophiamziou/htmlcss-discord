@@ -209,7 +209,6 @@ footer{
 .info-row{
     width: 70%;
     display: flex;
-    justify-content: row;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -263,8 +262,8 @@ li{
 }
 
 h5{
+    padding: 5px;
     color: rgb(142,161,225);
-    text-align: justify;
     padding-top: 20px;
 }
 
